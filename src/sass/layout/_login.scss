@@ -1,0 +1,39 @@
+/*phase 2 css*/
+.sub-container {
+    max-width: 100%;
+  }
+.logo-header {
+    width: 200px;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 78px;
+}
+
+.input-log {
+    border: 1px solid #979797;
+    height: 43px;
+    max-width: 330px;
+    width: 100%;
+    -webkit-border-top-right-radius: 6px;
+-webkit-border-bottom-right-radius: 6px;
+-moz-border-radius-topright: 6px;
+-moz-border-radius-bottomright: 6px;
+border-top-right-radius: 6px;
+border-bottom-right-radius: 6px;
+background-color: #fff!important;
+border-left: none;
+@media screen and (min-width: 1366px) and (max-width: 1919px){
+  max-width: 288px;
+}
+}
+
+.mx360 {
+    max-width: 400px;
+  }
+
+  .nameinput {
+      max-width: 125px;
+      @media screen and (min-width: 1366px) and (max-width: 1919px){
+        max-width: 108px;
+      }
+  }

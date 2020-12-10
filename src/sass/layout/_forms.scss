@@ -1,0 +1,10 @@
+/* Forms layout styles goes here */
+input.form-control, textarea.form-control, input.mat-input-element {
+   font-size: 0.9rem;
+}
+.green-link {
+   color: $swift-primary!important;
+   &:hover {
+     text-decoration: underline!important;
+   }
+ }

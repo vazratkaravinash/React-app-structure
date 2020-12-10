@@ -1,0 +1,22 @@
+/* Button styles goes here */
+/* Landing page Button styles */
+
+// Button Styles
+.btn {
+  @include heading-font;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.btn-xl {
+  font-size: 18px;
+  padding: 20px 40px;
+}
+
+.mat-button,
+.mat-flat-button,
+.mat-icon-button,
+.mat-stroked-button {
+  color: $black;
+}

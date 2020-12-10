@@ -1,0 +1,11 @@
+.btn-transparent {
+  @include btn-transparent(transparent);
+}
+
+.btn-teal {
+  @include btn-transparent($swift-primary);
+}
+
+.v-align-super {
+  vertical-align: super;
+}

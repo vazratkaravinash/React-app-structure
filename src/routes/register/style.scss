@@ -1,0 +1,92 @@
+h5, h4{font-size: 22px;}
+h1,h2,h3,h4,h5,h6{font-family:'Montserrat-Regular'!important;font-weight: 500;}
+h4{color:#5e5d5d}
+p{font-size: 18px;}
+/*signin and forgot password*/
+.btn-outline-success:hover {color: #fff;background-color: #2EC4B6;border-color: #2EC4B6;height: 48px;justify-content: center;display: flex;align-items: center;}
+.btn.greenBtn{
+    background: #02A89A;
+    border-radius: 6px;
+    height: 50px;
+    padding: 0px 30px;
+    font-family: 'Montserrat-Regular'!important;    
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    justify-content: center;display: flex;align-items: center;
+    }
+.blue-link {color: #2EC4B6!important;}
+div#content {height: auto;align-items: center;} 
+.text-center.position-relative:after {
+    content: "";
+    width: 1px;
+    height: 100%;
+    background: #ced4da;
+    display: block;
+    position: absolute;
+    right: -9%;
+    top: 0;
+}
+.invalid-feedback span {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 100%;
+    background: #dc3545;
+    color: #fff;
+    line-height: 18px;
+    margin-right: 5px;
+}
+/*signup*/
+.form-check-input{position:absolute;opacity:0;cursor:pointer;z-index:9;}
+.checkmark{position:absolute;top:4px;left:0px;height:18px;width:18px;background-color:#fff;border-radius:3px;border:1px solid #ccc;}
+ .form-check-input:checked ~ .checkmark{background-color:#2EC4B6;border:0;}
+ .checkmark:after{content:"";position:absolute;display:none;}
+ .form-check-input:checked ~ .checkmark:after{display:block;}
+ .checkmark:after{left:6px;top:3px;width:5px;height:10px;border:solid white;border-width:0 1px 1px 0;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg);}
+ .form-check-label.lbl{padding-left: 25px;}
+ /*signup sucess*/
+ .text-center.circle.mb-3 span {
+    background: #00a18c;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    line-height: 45px;
+    border-radius: 100%;
+}
+@media screen and (max-width:800px){
+    .full-width-col{flex:0 0 100%;max-width:100%}
+    div#content{height: auto; padding-bottom: 2em;}
+    .row.right-Content img.w-100 {width: 75%!important;}
+    .text-center.position-relative:after, .hide-for-mobile{display:none}
+    .col-md-10.full-width-col .text-error.form {max-width: 65%;margin: 0 auto;}
+}
+@media screen and (max-width:640px){
+    .row.right-Content img.w-100 {width: 85%!important;margin-top: 2em;}
+    .col-md-10.full-width-col .text-error.form {max-width: 85%;margin: 0 auto;}
+}
+
+@media screen and (max-width:480px){
+    .row.right-Content img.w-100 {width: 95%!important;margin-top: 2em;}
+    .col-md-10.full-width-col .text-error.form {max-width: 100%;margin: 0 auto;}
+}
+
+.wrapper-register {
+    margin-left: 20%;
+    margin-right: 20px;
+}
+.sortable {
+    cursor: pointer;
+}
+
+.imageStyle {
+    height:"15px";
+    width:"20px";
+}
+
+.main-camping-section>ul li a{font-size:18px;border:0!important;padding:15px 30px;color:#949494;}
+.main-camping-section>ul li a:hover, .main-camping-section ul li a.active{text-decoration:none;background-color:rgba(46, 195, 182, 0.2);border-bottom:5px solid #2EC4B6!important;border-bottom:0px solid #fff;border-left:0px solid #fff!important;background:transparent!important;color:#000!important;}
+.nav-tabs .nav-item {
+    width: 50%;
+}

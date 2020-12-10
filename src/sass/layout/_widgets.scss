@@ -1,0 +1,35 @@
+.widgets{
+    .heading {
+        background: $gray-1000;
+    }
+    .inner-container{
+        max-width: 92%;
+        .image-container{
+            background: $swift-primary;
+            .lrn-more {
+                color: $swift-primary;
+            }
+        }
+        img {
+            width: 100%;
+        }
+        .media-pages {
+            max-width: 125px;
+            border: 1px solid #ccc;
+            padding: 5px;
+            margin: 0 8px;
+            height: 150px;
+            .pos {
+                left: 50%;
+                bottom: 0;
+                transform: translateX(-50%);
+                width: 90%;
+            }
+            img {
+                max-width: 80px;
+                margin: 0 auto;
+                display: block;
+            }
+        }
+    }
+}

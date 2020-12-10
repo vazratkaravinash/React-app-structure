@@ -1,0 +1,87 @@
+@media (min-width: 768px) {
+    #sidemenu.affix {
+      position: fixed;
+      top: 40px;
+    }
+  }
+
+  #sidemenu .nav-link.active,
+  #sidemenu .nav-link:hover,
+  #sidemenu .nav-link:focus {
+    color: #fff;
+    background: #2f2b42;
+  }
+
+  .header-sticky {
+    position: sticky;
+    z-index: 999;
+    background: #ffffff;
+    top: 60px;
+  }
+
+  .anchor {
+    display: block;
+    visibility: hidden;
+  }
+
+  #content .nav-link {
+    // color: #555;
+    transition: all 0.2 ease;
+  }
+
+
+  .li-border-top {
+    border-top: 1px solid $swift-primary;
+  }
+
+  .col-cus-1 {
+    flex: 0 0 6.333333% !important;
+    max-width: 6.333333% !important;
+    transition: all 0.3s ease;
+  }
+
+  .col-cus-2 {
+    flex: 0 0 18.666667%;
+    max-width: 18.666667%;
+  }
+
+  .col-cus-10 {
+    flex: 0 0 81.333333%;
+    max-width: 81.333333%;
+  }
+
+  .trans {
+    transition: all 0.3s ease;
+  }
+
+  .col-top {
+    top: 100px;
+  }
+
+  .col-cus-11 {
+    flex: 1 0 91.666667%;
+    max-width: 93.777778%;
+    transition: all 0.3s ease;
+  }
+
+  .border-none {
+    border: none !important;
+  }
+
+  .sticky-top {
+    top: 152px !important;
+  }
+
+  .content-margin {
+    margin-top: 101px;
+  }
+
+  .card-bg {
+    background: #fafafa;
+  }
+
+  .add-profile {
+    .sticky-top {
+        top: 177px !important;
+    }
+  }

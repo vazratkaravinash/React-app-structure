@@ -1,0 +1,34 @@
+.mat-expansion-panel {
+  &:not([class*=mat-elevation-z]) {
+    box-shadow: none;
+  }
+}
+
+.mat-elevation-z8 {
+  box-shadow: none;
+  border: 1px solid #ccc;
+}
+
+.card {
+  border-color: $card-border;
+}
+
+.card-title {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.badge.badge-info {
+  background-color: $swift-primary;
+  color: #fff!important;
+}
+
+a.badge-info:hover{
+  background-color: $swift-primary;
+}
+
+.badge{
+  padding: .5em .4em;
+  font-weight: initial;
+}
+

@@ -1,0 +1,12 @@
+.pagination {
+    .page-item.active {
+        .page-link {
+            border-color: $swift-primary;
+            background-color: $swift-primary;
+        }
+    }
+    .page-link {
+        border-color: $swift-primary;
+        color: $swift-primary;
+    }
+}

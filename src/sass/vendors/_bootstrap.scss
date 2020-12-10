@@ -1,0 +1,15 @@
+/* Bootstrap styles goes here */
+
+/* Overriding bootstrap pagination styles */
+
+.page-item {
+  &.active {
+    .page-link {
+      @include btn-transparent($swift-primary);
+    }
+  }
+
+  .page-link {
+    color: $swift-primary;
+  }
+}

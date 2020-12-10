@@ -1,0 +1,16 @@
+/*promotions page changes are here*/
+.promotions,
+.campaign {
+  label {
+    font-size: 14px;
+  }
+
+  li.nav-item {
+    background: $swift-primary;
+  }
+
+  .li-active {
+    background: $swift-primary;
+    color: $white;
+  }
+}

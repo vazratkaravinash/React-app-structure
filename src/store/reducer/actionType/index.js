@@ -1,0 +1,4 @@
+export const SET_AUTH_USER = 'SET_AUTH_USER'
+export const CLEAR_AUTH = 'CLEAR_AUTH'
+
+export const SET_COURSE_DETAILS = 'SET_COURSE_DETAILS'
